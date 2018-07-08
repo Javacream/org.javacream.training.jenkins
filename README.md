@@ -5,3 +5,4 @@ Jenkins Training
 
 * https://gist.github.com/mubbashir/484903fda934aeea9f30
 * https://github.com/cloudbees/jenkins-scripts
+* https://jenkins.io/doc/pipeline/examples/
