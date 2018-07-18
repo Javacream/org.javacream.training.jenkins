@@ -1,9 +1,23 @@
-def mvnCommand = "C:\\_training\\tools\\apache-maven-3.5.4-bin\\bin\\mvn"
-def pomLocation = "org.javacream.training.jvm/pom.xml"
-def mavenGoals = " install "
+pipeline {
+    agent any
+    tools {
+        maven 'Maven3'
+        jdk 'jdk8'
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+                sh '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
+            }
+        }
 
-node {
-      git 'https://github.com/Javacream/org.javacream.training.jvm'
-      bat mvnCommand + mavenGoals + "-f " + " " + pomLocation 
-    
+        stage ('Build') {
+            steps {
+                sh 'mvn  install' 
+            }
+        }
+    }
 }
