@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                sh 'mvn  install' 
+                sh 'mvn  -f org.javacream.training.jvm/pom.xml install' 
             }
         }
     }
