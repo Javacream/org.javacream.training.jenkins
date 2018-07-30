@@ -16,7 +16,7 @@ pipeline {
 
         stage ('Build') {
             steps {
-                sh 'mvn  -f org.javacream.training.jee7/pom.xml install' 
+                sh 'mvn  -f org.javacream.training.jee7/pom.xml deploy' 
             }
         }
     }
