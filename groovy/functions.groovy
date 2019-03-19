@@ -1,6 +1,6 @@
 def app(){
-    def result = functionName("Hugo", 42)
-    println(result)
+    //def result = functionName("Hugo", 42)
+    //println(result)
     //functionName("Hugo")
     //functionName("Hugo", 42, false)    
 
@@ -23,5 +23,15 @@ def parameters(string, list){
     println("in parameters: param1=${string}, param2=${list}")
 
 }
+
+//Was ist message, Was ist "..."?
+//message ist eine Referenz auf ein Objekt vom Typ String
+//"..." Literal, dieses erzeugt das Objekt vom Typ String und gibt die Referenz zurück
+def message = "Hello"
+def number = 42
+//x ist eine Referenz auf ein Objekt vom Typ function
+def x = { param -> println("param=${param}")}
+
+x("Hugo")
 app()
 
