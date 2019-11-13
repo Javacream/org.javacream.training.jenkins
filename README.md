@@ -27,7 +27,9 @@ cp /raum04/daemon.json /etc/docker/daemon.json
 service docker restart
 
 docker login -u admin -p admin123 10.8.4.41:8082
+
 docker login -u admin -p admin123 10.8.4.41:8083
+
 docker login -u admin -p admin123 10.8.4.41:8084
 
 Use 8084 for docker pull, 8083 for docker push
