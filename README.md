@@ -12,7 +12,7 @@ Inside VCE open a terminal window and execute
 
 source /raum04/setup
 
-execute groovy -version
+groovy -version
 
 
 
