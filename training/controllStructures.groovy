@@ -3,7 +3,7 @@ def number = 9
 def hugo
 message = null
 
-if (message == null){
+if (hugo == null){
     println ("message was not defined")
 }
 else {

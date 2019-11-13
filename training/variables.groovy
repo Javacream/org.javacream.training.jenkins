@@ -1,14 +1,21 @@
 def message = "Hello"
 def number = 42
-def hugo
-println message
-println message + number
+def list = ["A", "B", "C"]
+def range = 5..1
+//range = 'a'..<'c'
 
-message = 9
-println message + number
+// for (def i = 0; i < 5; i++){
+//     println i
+// }
 
-hugo = message
-println hugo
-message = null
-println message
+for (def i in 1..3){
+    println i
+}
 
+for (def element in list){
+    println element
+}
+
+for (def element in message){
+    println element
+}
