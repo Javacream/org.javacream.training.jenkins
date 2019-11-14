@@ -1,18 +1,18 @@
 def demoList(){
     def names = new ArrayList()
-    names.add("Hugo")
+    names.add("Willibald")
     names.add("Emil")
-    names.add("Fritz")
+    names.add("Fu")
+    names.add("Gregor")
+    names.add("Hanna")
+    names.add("Friedrike")
 
-    println(names.get(2))
-    println(names.size()) //3
-    names.add("Hugo")
-    println(names.size()) //4
-    collectionIterator(names)
-    names.remove(1)
-    println(names.size())
-    names.clear()
-    println(names.size())
+    println(names)
+    def sortFn = {n1, n2 -> n2.charAt(1).compareTo(n1.charAt(1))}
+    println(names.sort(sortFn))
+    names.each({println(it)})
+    def result = sortFn("Hugo", "Hogo")
+    println(result)
 }
 
 def demoMap(){
@@ -53,6 +53,6 @@ def demoString(){
     println(firstLetter)
 }
 
-//demoList()
-demoMap()
+demoList()
+//demoMap()
 //demoSet()
