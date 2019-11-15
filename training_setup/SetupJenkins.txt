@@ -1,0 +1,20 @@
+Installation von Jenkins auf dem lokalen Rechner:
+
+Verzeichnis anlegen: /jenkins/libraries/training
+
+In diesem Verzeichnis Terminal öffnen und ausführen
+
+	git init
+
+In einem Terminalfenster ausführen:
+
+	docker load -i /raum04/jenkins.image
+
+	docker run --name jenkins -v jenkins_data:/var/jenkins_home -v /jenkins/libraries/:/libraries -p 8080:8080 jenkinsci/blueocean
+
+Im Browser öfffner
+	http://localhost:8080
+Aus dem Terminal-Fenster des Docker-Aufrufs das Admin-Password kopieren und im Browser einfügen
+Die weiteren Schritte der Installation durchführen, also Standard-PlugIns installieren lassen, Admin einrichten
+
+
