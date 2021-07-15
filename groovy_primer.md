@@ -25,4 +25,6 @@
     * println "Hello World"
 
 * Eine funktionale Sprache
-  * Funktionen können als Variable/Paramter/Rückgabewerte benutzt werden
+  * Funktionen können als Variable/Parameter/Rückgabewerte benutzt werden
+  * Häufig wird der funktionale Ansatz genutzt in der Framework-Programmierung
+    * Die komplizierte Logik ist in einem Framework fertig implementiert, die eigene Logik wird über eine Callback-Funktion beigesteuert
