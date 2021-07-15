@@ -20,3 +20,5 @@
   * Die Runtime-Artefakte sind JAR
 
 * Syntactic Sugar
+  * Syntax der Sprache ist relativ flexibel
+    * println("Hello World") 
