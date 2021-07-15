@@ -20,3 +20,4 @@
 
 * Für das klassiche Bauen von Anwendungen ist Jenkins nicht mehr notwendig
   * Trend geht hier eher zu Komplettlösungen, z.B. GitLab CI/CD
+  * Historisch gewachsene Build-Umgebungen benutzen aber häufig immer noch Jenkins
