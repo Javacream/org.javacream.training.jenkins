@@ -6,6 +6,6 @@
   * Transformation
     * collect
   * Sortieren
-    * sort
+    * sort, toSorted
   * Iterieren
     * each
