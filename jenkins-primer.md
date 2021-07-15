@@ -33,3 +33,16 @@
 * Als Programmiersprache hierfür ist Groovy sehr gut geeignet!
   * Job-Definitionen hat Scripting-Anteile
   * Hierarchie wird abgebildet durch Callback-Funktionen 
+
+# Eine erste Job-Definition
+pipeline {
+    agent any
+
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
