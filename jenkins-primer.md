@@ -7,3 +7,4 @@
 # Was kann dieser Jenkins?
 
 * Ausführung einer beliebigen Anzahl von Job-Definitionen
+* Detailliertes Reporting inklusive Fehleranalyse
