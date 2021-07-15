@@ -15,3 +15,8 @@
 * Source Code Management (Git)
 * Build-Werkzeug (!) (Apache Maven)
 * Ablage für die gebauten Runtime-Artefakte, diese Aufgabe übernimmt ein Artefakt-Repository (Nexus, Artifeactory) 
+
+# Wie beliebt / notwendig ist denn der Jenkins heutzutage?
+
+* Für das klassiche Bauen von Anwendungen ist Jenkins nicht mehr notwendig
+  * Trend geht hier eher zu Komplettlösungen, z.B. GitLab CI/CD
