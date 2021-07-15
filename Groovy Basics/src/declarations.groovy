@@ -16,3 +16,7 @@ println(message)
 
 String message3 = "Hello"
 println(message3)
+
+message3 = 42
+println(message3)
+
