@@ -30,3 +30,6 @@
 * Level 2: Zusätzliche vorrangige/nachrangige Aktionen ausgeführt in eigenen Job-Stages /Schritte
 * Level 3: Auswahl des für einen Schritte geeigneten Agents
 * In der Summe ist ein Jenkins-Job eine Hierarchie von Aktionen gruppiert in Stages ausgeführt in passenden Agenten
+* Als Programmiersprache hierfür ist Groovy sehr gut geeignet!
+  * Job-Definitionen hat Scripting-Anteile
+  * Hierarchie wird abgebildet durch Callback-Funktionen 
