@@ -23,3 +23,6 @@
   * Syntax der Sprache ist relativ flexibel
     * println("Hello World");
     * println "Hello World"
+
+* Eine funktionale Sprache
+  * Funktionen können als Variable/Paramter/Rückgabewerte benutzt werden
