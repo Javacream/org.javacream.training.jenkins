@@ -4,7 +4,7 @@
   * Filter
     * findAll
   * Transformation
-    * stream().map
+    * collect
   * Sortieren
     * sort
   * Iterieren
