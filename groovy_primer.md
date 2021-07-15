@@ -11,3 +11,5 @@
   * Untypisierte Programmierung ist ebenfalls
 
 * Groovy ist eine Compiler-Sprache
+  * Die Compilierung kann zur Laufzeit erfolgen
+  * Klassiches Compilieren erzeugt Runtime-Artefakte
