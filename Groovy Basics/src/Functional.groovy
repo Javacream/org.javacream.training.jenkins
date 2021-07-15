@@ -8,3 +8,9 @@ def postalCode = [81373: "München", 71234: "Stuttgart"]
 def myFunc = {x, y -> return x + y}
 println myFunc(1, 2)
 
+//Herleitung
+def functionName(p1, p2){
+    return 42
+}
+
+def functionVar = {p1, p2 -> return 42}
