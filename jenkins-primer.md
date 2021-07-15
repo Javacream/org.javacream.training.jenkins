@@ -22,3 +22,7 @@
   * Trend geht hier eher zu Komplettlösungen, z.B. GitLab CI/CD
   * Historisch gewachsene Build-Umgebungen benutzen aber häufig immer noch Jenkins
 * Jenkins viel flexibler als "nur Software bauen"
+
+# Job-Definitionen
+
+* Level 0: mvn package
