@@ -19,4 +19,5 @@ def functionVar = {p1, p2 -> return 42}
 //def iteratorFunction = {element -> println(element)}
 //names.each(iteratorFunction)
 
-names.each({element -> println(element)})
+//names.each({element -> println(element)})
+names.each {element -> println element}
