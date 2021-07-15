@@ -9,3 +9,7 @@ message2 = "Goodbye World"
 
 println(message)
 println(message2)
+
+message = 42
+
+println(message)
