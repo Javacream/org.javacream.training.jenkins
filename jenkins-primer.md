@@ -27,4 +27,5 @@
 
 * Level 0: mvn package
 * Level 1: Nach welchen Kriterien wird der Job gestartet? Welche Reports? ...
-* Level 2: Zusätzliche vorrangige/nachrangige Aktionen ausgeführt in eigenen Job-Stages
+* Level 2: Zusätzliche vorrangige/nachrangige Aktionen ausgeführt in eigenen Job-Stages /Schritte
+* Level 3: Auswahl des für einen Schritte geeigneten Agents
