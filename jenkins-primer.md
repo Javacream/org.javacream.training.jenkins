@@ -35,6 +35,7 @@
   * Hierarchie wird abgebildet durch Callback-Funktionen 
 
 # Eine erste Job-Definition
+
 pipeline {
     agent any
 
@@ -46,3 +47,16 @@ pipeline {
         }
     }
 }
+
+
+pipeline ({
+    agent(any)
+
+    stages ({
+        stage('Hello', {
+            steps ({
+                echo ('Hello World')
+            })
+        })
+    })
+})
