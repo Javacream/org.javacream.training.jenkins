@@ -33,8 +33,9 @@ printMessage("Hello", 42)
 //printMessage(1, 2, 3)
 
 void printMessageTyped(String m, Integer i){
-    println("Param1=${m}")
-    println("Param2=${i}")
+    println("Typed Param1=${m}")
+    println("Typed Param2=${i}")
 }
 
 printMessageTyped("Hello", 42)
+printMessageTyped(9, 42)
