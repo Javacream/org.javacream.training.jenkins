@@ -12,4 +12,5 @@
 
 # Was ist der Jenkins NICHT
 
-* 
+* Source Code Management
+* Build-Werkzeug (!)
