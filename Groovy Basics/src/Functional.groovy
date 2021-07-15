@@ -12,8 +12,10 @@ def myFunc = {x, y -> return x + y}
 def functionName(p1, p2){
     return 42
 }
-//Lambda-Funktion, Closure-Function
-def functionVar = {p1, p2 -> return 42}
+//Lambda-Funktion oder Arrow-Funktion oder Closure
+
+def result = 42
+def functionVar = {p1, p2 -> return result}
 
 //Anwendung mit Collection
 //def iteratorFunction = {element -> println(element)}
