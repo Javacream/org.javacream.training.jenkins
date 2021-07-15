@@ -12,5 +12,6 @@
 
 # Was ist der Jenkins NICHT
 
-* Source Code Management
-* Build-Werkzeug (!)
+* Source Code Management (Git)
+* Build-Werkzeug (!) (Apache Maven)
+* Ablage für die gebauten Runtime-Artefakte, diese Aufgabe übernimmt ein Artefakt-Repository (Nexus, Artifeactory) 
