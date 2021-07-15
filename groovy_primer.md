@@ -18,3 +18,5 @@
   * Ausführung erfolgt in einer Java Virtual Machine
   * Interoperabilität mit Java
   * Die Runtime-Artefakte sind JAR
+
+* Syntactic Sugar
