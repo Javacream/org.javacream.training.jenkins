@@ -9,3 +9,5 @@
   * Typisierte Sprache
     * Variablen, Paramater, Rückgabewerte haben eine Typen
   * Untypisierte Programmierung ist ebenfalls
+
+* Groovy ist eine Compiler-Sprache
