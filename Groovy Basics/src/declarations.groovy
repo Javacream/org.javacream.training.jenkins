@@ -1,3 +1,5 @@
+import groovy.transform.TypeChecked
+
 /*
 Dieses Skript zeigt die verschiedenen Deklarations-Möglichkeit
  */
@@ -32,9 +34,11 @@ def printMessage(m, i){
 printMessage("Hello", 42)
 //printMessage(1, 2, 3)
 
+@TypeChecked
 void printMessageTyped(String m, Integer i){
     println("Typed Param1=${m}")
     println("Typed Param2=${i}")
+    m = 42
 }
 
 printMessageTyped("Hello", 42)
