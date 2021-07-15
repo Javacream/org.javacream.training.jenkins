@@ -29,3 +29,4 @@
 * Level 1: Nach welchen Kriterien wird der Job gestartet? Welche Reports? ...
 * Level 2: Zusätzliche vorrangige/nachrangige Aktionen ausgeführt in eigenen Job-Stages /Schritte
 * Level 3: Auswahl des für einen Schritte geeigneten Agents
+* In der Summe ist ein Jenkins-Job eine Hierarchie von Aktionen gruppiert in Stages ausgeführt in passenden Agenten
