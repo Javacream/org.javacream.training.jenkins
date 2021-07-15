@@ -27,3 +27,10 @@ def printMessage(m, i){
 }
 
 
+printMessage()
+printMessage("Hello")
+printMessage("Hello", 42)
+printMessage(1, 2, 3)
+
+
+
