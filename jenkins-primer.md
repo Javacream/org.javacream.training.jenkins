@@ -8,3 +8,8 @@
 
 * Ausführung einer beliebigen Anzahl von Job-Definitionen
 * Detailliertes Reporting inklusive Fehleranalyse
+* Job-Abhängigen
+
+# Was ist der Jenkins NICHT
+
+* 
