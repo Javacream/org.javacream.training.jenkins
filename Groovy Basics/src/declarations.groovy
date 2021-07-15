@@ -19,4 +19,7 @@ println(message3)
 
 message3 = 42
 println(message3)
+println(message3 + message3)
+
+
 
