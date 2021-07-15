@@ -22,3 +22,4 @@
 * Syntactic Sugar
   * Syntax der Sprache ist relativ flexibel
     * println("Hello World");
+    * println "Hello World"
