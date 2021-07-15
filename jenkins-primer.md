@@ -26,3 +26,4 @@
 # Job-Definitionen
 
 * Level 0: mvn package
+* Level 1: Nach welchen Kriterien wird der Job gestartet? Welche Reports? ...
