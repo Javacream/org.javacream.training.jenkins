@@ -13,3 +13,8 @@
 * Groovy ist eine Compiler-Sprache
   * Die Compilierung kann zur Laufzeit erfolgen
   * Klassiches Compilieren erzeugt Runtime-Artefakte
+
+* Groovy ist eine Bytecode-Sprache
+  * Ausführung erfolgt in einer Java Virtual Machine
+  * Interoperabilität mit Java
+  * Die Runtime-Artefakte sind JAR
