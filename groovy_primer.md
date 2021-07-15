@@ -6,3 +6,6 @@
     * Abstraktion durch eine Klassen-Hierarchie
   * Eine Skript-Sprache
     * Top-Level-Funktionen können in einer Sequenz von Anweisungen aufgerufen werden
+  * Typisierte Sprache
+    * Variablen, Paramater, Rückgabewerte haben eine Typen
+  * Untypisierte Programmierung ist ebenfalls
