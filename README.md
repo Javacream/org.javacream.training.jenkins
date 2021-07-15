@@ -17,6 +17,4 @@ Jenkins Training
   * https://github.com/Javacream/org.javacream.training.jenkins
     * Branch itzbund_15.7.2021
 
-* Digitales Flipchart
-  * https://docs.google.com/presentation/d/1GMzjOa1gB7AcKDpJhmLNzMSnKTe3ZFgFNl-lyfOlwAg/edit?usp=sharing
 
