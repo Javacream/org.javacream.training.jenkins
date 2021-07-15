@@ -17,4 +17,5 @@ def functionVar = {p1, p2 -> return 42}
 
 //Anwendung mit Collection
 def iteratorFunction = {element -> println(element)}
+names.each {iteratorFunction}
 
