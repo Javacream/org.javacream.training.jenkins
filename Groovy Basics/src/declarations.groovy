@@ -12,7 +12,7 @@ println(message2)
 
 message = 42
 
-println(message)
+println(message + message)
 
 String message3 = "Hello"
 println(message3)
