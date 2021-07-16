@@ -13,8 +13,6 @@
 
 ## Potenziell: Parallelisierung von Vorgängen
 
-## Beispiel mit parallelem Testen
-
 * Hole die Quellcode
 * Compiliere den Code
 * Packe den Code
@@ -71,3 +69,12 @@
   * Neue Pipeline-Befehle
   * Neuer Satz von Konfigurationseinstellungen im Jenkins
   * Erweiterungen des Web Frontends
+
+# Build-Workspace
+
+* Der Build-Prozess läuft in einem Dateisystem
+* Jenkins archiviert Build-Workspaces für die unterschiedlichen Job-Ausführungen
+  * Es ist Aufgabe eines Jobs, relevante Artefakte / Binaries aus dem Workspace in ein Repository zu kopieren
+* Stages können einzelnen Nodes zugeordnet werden
+  * Problem: Was passiert dem Workspace?
+  * Lösung: Stashing
