@@ -14,3 +14,7 @@
 * Jenkins ist ale Listener beim Source Code Management registriert
 * Idee: Jenkinsfile
   * Die Build-Pipeline liegt im Source Repository
+
+## Definition der Build-Umgebung
+
+* node (skripted pipeline) agent (declarative pipeline) wählen den ausführenden Agent / Build-Rechner
