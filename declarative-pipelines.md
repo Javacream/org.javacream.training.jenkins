@@ -4,4 +4,4 @@
   * Leider nicht mehr Groovy, nur ein bisschen Groovy
 * Faktisch eine eigene, neue Programmiersprache
   * Eigentlich nur bekannt in der Groovy-Community
-  * Problem: Es gibt dafür wenig bis gar keine Untersützung außerhalb von Jenkins 
+  * Problem: Es gibt dafür wenig bis gar keine Untersützung außerhalb von Jenkins, sondern das Project "Blue Ocean"
