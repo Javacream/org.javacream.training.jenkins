@@ -10,3 +10,6 @@
 
 * Groovy wird vorwiegend für reine Skript-Anwendungen benutzt
   * Wie möchten auf einen komplexen Build- und Deployment-Vorgang verzichten
+  * Groovy-Skripte werden genutzt, um in vorhandenen Anwenudngen Erweiterungen/Customizing durchzuführen
+    * Eine Web-Anwendung in einem Web Server
+    * Abfrage in einer z.B. NoSQL-Datenbank
