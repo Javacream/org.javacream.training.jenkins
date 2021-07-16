@@ -15,3 +15,8 @@
     * Abfrage in einer z.B. NoSQL-Datenbank
     * Jenkins
     * Jira
+  
+ ## Groovy als Skriptsprache
+ 
+ * Skript-Sprachen tendieren zu untypisierter Programmierung
+ *  Schlüsselwort "def" deklariert einer Variablen, einer Funktion, eines Attributs, einer Methode
