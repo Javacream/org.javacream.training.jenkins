@@ -18,3 +18,7 @@
 ## Definition der Build-Umgebung
 
 * node (skripted pipeline) agent (declarative pipeline) wählen den ausführenden Agent / Build-Rechner
+  * node ('Linux') -> Build-Prozess muss auf einer Linux-Maschine laufen
+  * node ('Windows') -> Build-Prozess muss auf einer Windows-Maschine laufen
+  * Auswahl der Build-Umgebung erfolgt heute unter Verwendung von Build-Containern
+    * Build-Container werden in der Regel über Docker-Images bereitgestellt
