@@ -17,7 +17,7 @@ class Book{
 }
 
 class BooksController{
-	private Map books = new HashMap()
+	private Map books = [:]
 	private int counter = 0
 	String create(String title){
 		def isbn = "ISBN${counter++}"
