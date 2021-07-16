@@ -27,4 +27,5 @@
 * Innerhalb des BooksControllers ist eine Map sinnvoll
 * Optionale Erweiterung durch Hinzufügen weiterer find-Operationen
   * findByTitle(title:String) : Book
-  * findByPriceRange(range): List  
+  * findByPriceRange(range): List
+* Sie können gerne alles in einer Datei realisieren   
