@@ -13,3 +13,5 @@
   * Groovy-Skripte werden genutzt, um in vorhandenen Anwenudngen Erweiterungen/Customizing durchzuführen
     * Eine Web-Anwendung in einem Web Server
     * Abfrage in einer z.B. NoSQL-Datenbank
+    * Jenkins
+    * Jira
