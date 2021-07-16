@@ -64,4 +64,10 @@
 * sh
 * bat
 
+## Jenkins PlugIns
 
+* Eine Installation erfolgt über den Jenkins Marketplace
+* Jedes PlugIn erweitert Jenkins um
+  * Neue Pipeline-Befehle
+  * Neuer Satz von Konfigurationseinstellungen im Jenkins
+  * Erweiterungen des Web Frontends
