@@ -23,3 +23,19 @@
   * Fachliche Tests: Funktioniert die Anwendung
   * Weitere Tests: Performance, Speicherprobleme...
 * Veröffentliche den Code
+
+## Gruppierung von Sequenzen
+
+* Stage 1 (Source Code Management)
+  * Hole die Quellcode
+* Stage 2 (Bauen der Software)
+  * Compiliere den Code
+  * Packe den Code
+* Stage 3 (Test)
+  * Quellcode-Analyse
+  * Fachliche Tests: Funktioniert die Anwendung
+  * Weitere Tests: Performance, Speicherprobleme...
+* Stage 4 (Beretitstellung)
+   * Veröffentliche den Code
+
+
