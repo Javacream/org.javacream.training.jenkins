@@ -55,6 +55,13 @@
   * Stage 4 (Beretitstellung)
     * Veröffentliche den Code
 
+# Pipeline-Befehle
 
+## Core Jenkins-Befehle
+
+* node
+* stage
+* sh
+* bat
 
 
