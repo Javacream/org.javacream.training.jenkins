@@ -20,4 +20,5 @@
  
  * Skript-Sprachen tendieren zu untypisierter Programmierung
  *  Schlüsselwort "def" deklariert einer Variablen, einer Funktion, eines Attributs, einer Methode
-   * Klassen sind weiterhin typisiert und enthalten Skripte Typ-Angaben 
+   * Klassen sind weiterhin typisiert und enthalten Typ-Angaben
+ * Zum Testen eines Skriptes müssen die Java-Bibliotheken, die im Skript benutzt werden, vorhanden sein in der Entwicklungsumgebung
