@@ -22,3 +22,5 @@
  *  Schlüsselwort "def" deklariert einer Variablen, einer Funktion, eines Attributs, einer Methode
    * Klassen sind weiterhin typisiert und enthalten Typ-Angaben
  * Zum Testen eines Skriptes müssen die Java-Bibliotheken, die im Skript benutzt werden, vorhanden sein in der Entwicklungsumgebung
+ * Die Ausführung der Skripte muss ebenfalls in der Umgebung erfolgen, in der die Typen vorhanden sind
+   * Eine Test-Umgebung, die die reale Umgebung (Jenkins/Jira) simuliert ist schwer aufzusetzen
