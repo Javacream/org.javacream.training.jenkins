@@ -18,5 +18,4 @@ Jenkins Training
     * Branch itzbund_15.7.2021
 
 * Digitales Flipchart
-  * https://docs.google.com/presentation/d/1GMzjOa1gB7AcKDpJhmLNzMSnKTe3ZFgFNl-lyfOlwAg/edit?usp=sharing
-
+  * https://docs.google.com/presentation/d/1kOpEk3_FJHcUh8uqZt2PodmwdhuHZqLHkUZHsQuLaqY/edit?usp=sharing
