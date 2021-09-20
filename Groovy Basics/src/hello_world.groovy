@@ -1,1 +1,2 @@
-print "Hello World!"
+String message = "Hello Moon!"
+print (message)
