@@ -14,4 +14,4 @@ Person p = new Person("Sawitzki")
 p.sayHello();
 
 
-List<String> names = ["Sawitzki", "Meier", "Schnieder"]
+List<String> names = ["Sawitzki", "Meier", "Schneider"]
