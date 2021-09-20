@@ -24,5 +24,18 @@ class BooksController{
     Book findBookByIsbn(String isbn){
         return books.get(isbn)
     }
+    void deleteBookByIsbn(String isbn){
+        Book removed = books.remove(isbn)
+        if (removed != null){
+            //isbn was there
+        }
+    }
+
+    List<Book> findBookByTitle(String title){
+        Closure c = {book -> book.title.equals(title)}
+        books.entrySet().find(c)
+
+        //Groovy ==
+    }
 
 }
