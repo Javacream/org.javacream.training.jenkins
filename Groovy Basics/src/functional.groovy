@@ -15,7 +15,7 @@ result = x(2, 40)
 
 
 def f(p){
-    return p(true false)
+    return p(true, false)
 }
 
 List<String> names = ["Hugo", "Emil"]

@@ -31,11 +31,13 @@ class BooksController{
         }
     }
 
-    List<Book> findBookByTitle(String title){
+    List<Book> findBooksByTitle(String title){
         Closure c = {book -> book.title.equals(title)}
-        books.entrySet().find(c)
-
-        //Groovy ==
+        books.values().findAll(c)
+    }
+    List<Book> findBooksByPagesRange(Range<Integer> range){
+        Closure c = {book -> range.containsWithinBounds(book.pages)}
+        books.values().findAll(c)
     }
 
 }
