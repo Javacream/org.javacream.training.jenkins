@@ -1,5 +1,5 @@
 class Book{
-    final String title
+    String title
     String isbn
     double price
     int pages
