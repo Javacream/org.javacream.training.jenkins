@@ -6,7 +6,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<properties>
-		<repository_base_url>http://http://h2908727.stratoserver.net/:8081</repository_base_url>
+		<repository_base_url>http://h2908727.stratoserver.net/:8081</repository_base_url>
 	</properties>
 
 	<dependencies>
