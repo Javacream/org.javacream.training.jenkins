@@ -11,5 +11,5 @@ Jenkins Training
   * Mittagspause 45’ (12:15-13:00)
   * Kaffeepausen 10:30 - 10:45 und 14:30 - 14:45
  
-  * [Digitales Flipchart](https://docs.google.com/presentation/d/1hJdM6La6WWDgh_FcmgqstK1yLqiAYdizdgAb8PQEfxU/edit?usp=sharing)
+  * [Digitales Flipchart](https://docs.google.com/presentation/d/1lxYoJd8XvTTXllu6-SjzqL4TZd5qmlnnsaOviH9zmGA/edit?usp=sharing)
   
