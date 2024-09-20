@@ -1,14 +1,64 @@
 pipeline {
   agent {label 'cing-jdk17'}
-  options {
-    timeout(time: 5, unit: 'MINUTES')
-  }
-  stages {
-    stage('Stage 1') {
-      steps {
-        echo 'Hello Pipeline'
+    environment {
+      VAR1 = 'Hugo'
+    }
+    stages {
+      stage('step1'){
+        steps {
+          echo "in step1: VAR1 is ${VAR1}"
+        }
+      }
+      stage('step2'){
+        steps {
+          echo "in step2: VAR1 is ${VAR1}"
+        }
+      }
+      stage('jenkins variables'){
+        steps {
+          echo "Branch is ${JOB_NAME}"
+        }
+      }
+      stage('write file, same agent'){
+        steps {
+          writeFile(file: 'content.txt', text: 'Hello')
+        }
+      }
+      stage('read file, same agent'){
+        steps {
+          echo readFile(file: 'content.txt')
+          sh 'ls'
+        }
+      }
+      stage('write file, agent1'){
+		agent {label 'cing-jdk17'}
+        steps {
+          writeFile(file: 'content.txt', text: 'Hello')
+          writeFile(file: 'stashed_content.txt', text: 'Hello')
+          stash(name: 'from agent1', includes: 'stashed_content.txt')
+        }
+      }
+      stage('read file, agent2'){
+		agent {label 'cing-python39'}
+        steps {
+          sh 'ls'
+          unstash(name: 'from agent1')
+          sh 'ls'
+        }
       }
     }
-  }
-
+    post { 
+          always { 
+              echo 'the pipeline has finished or was interrupted'
+          }
+          success { 
+              echo 'the pipeline has finished successfully'
+          }
+          failure { 
+              echo 'the pipeline has finished with a failure'
+          }
+          changed { 
+              echo 'a failed pipeline is now successful or vice verse'
+          }
+    }
 }
