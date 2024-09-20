@@ -1,7 +1,7 @@
 pipeline {
   agent {label 'cing-jdk17'}
   options {
-    timeout(time: 5, units: 'MINUTES')
+    timeout(time: 5, unit: 'MINUTES')
   }
   stages {
     stage('Stage 1') {
