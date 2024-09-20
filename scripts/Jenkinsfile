@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent {label 'cing-jdk17'}
   options {
     timeout(time: 5, units: 'MINUTES')
   }
